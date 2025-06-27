@@ -33,7 +33,7 @@ const MouseTrail = () => {
       {trail.map((position, index) => (
         <div
           key={position.id}
-          className="absolute w-8 h-8 bg-white rounded-full opacity-10 blur-sm animate-pulse"
+          className="absolute w-8 h-8 bg-orange-500 rounded-full opacity-10 blur-sm animate-pulse"
           style={{
             left: position.x - 16,
             top: position.y - 16,
